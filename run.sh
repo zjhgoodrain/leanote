@@ -38,4 +38,4 @@ echo "check init db"
 export GOPATH=$SCRIPTPATH
 script="/usr/local/leanote/leanote"
 chmod 777 $script
-$script -importPath /usr/local/leanote/leanote
+$script -importPath github.com/leanote/leanote
