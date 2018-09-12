@@ -23,7 +23,7 @@ func (c Index) Default() revel.Result {
 // leanote展示页, 没有登录的, 或已登录明确要进该页的
 func (c Index) Index() revel.Result {
 	c.SetUserInfo()
-	c.ViewArgs["title"] = "leanote"
+	c.ViewArgs["title"] = "index"
 	c.ViewArgs["openRegister"] = configService.GlobalStringConfigs["openRegister"]
 	c.SetLocale()
 

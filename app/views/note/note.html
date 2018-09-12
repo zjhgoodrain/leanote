@@ -41,7 +41,7 @@ function log(o) {
 			<!-- 头部 -->
 			<!-- <div id="headerContainer"> -->
 			<div id="header">
-				<a id="logo" href="/" title="Leanote {{msg . "home"}}" class="pull-left"></a>
+				{{/*<a id="logo" href="/" title="Leanote {{msg . "home"}}" class="pull-left"></a>*/}}
 				<div id="switcher" class="pull-left">
 					 <i class="fa fa-dedent" id="leftSwitcher" title="{{msg . "leftHidden"}}"></i>
 					 <span id="leftSwitcher2" class="fa fa-indent" title="{{msg . "leftShow"}}"></span>
@@ -178,11 +178,11 @@ function log(o) {
 						</ul>
 					</div>
 				</div>
-				<div class="pull-right top-nav writting-hide lea-blog">
-					<a target="_blank" href="http://lea.leanote.com"> 
-						{{msg . "Explore"}}
-					</a>
-				</div>
+				{{/*<div class="pull-right top-nav writting-hide lea-blog">*/}}
+					{{/*<a target="_blank" href="http://lea.leanote.com"> */}}
+						{{/*{{msg . "Explore"}}*/}}
+					{{/*</a>*/}}
+				{{/*</div>*/}}
 				
 				<div class="pull-right top-nav writting-hide" id="myBlog">
 					<a target="_blank" href="{{$.blogUrl}}/{{.userInfo.Username}}"> 

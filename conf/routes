@@ -5,10 +5,10 @@
 # module:testrunner
 
 # Home is My Blog
-Get 	/											Index.Default
+Get 	/											Auth.Login
 GET     /note   	                                Note.Index
 # leanote home
-GET     /index   	                                Index.Index
+GET     /index   	                                Auth.Login
 
 GET     /login                                     	Auth.Login
 POST     /doLogin                                   Auth.DoLogin
