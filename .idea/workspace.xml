@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5294f146-d2f8-4df6-a40a-c236749a2b73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/app.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="172">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret column="7596" selection-start-column="7596" selection-end-column="7596" />
+            <state relative-caret-position="102">
+              <caret column="7351" selection-start-column="7351" selection-end-column="7351" />
             </state>
           </provider>
         </entry>
@@ -146,10 +146,10 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/app/views/admin/top.html" />
-        <option value="$PROJECT_DIR$/conf/app.conf" />
         <option value="$PROJECT_DIR$/app/controllers/NoteController.go" />
         <option value="$PROJECT_DIR$/app/views/note/note.html" />
         <option value="$PROJECT_DIR$/public/js/common.js" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
         <option value="$PROJECT_DIR$/public/js/app.min.js" />
       </list>
     </option>
@@ -251,8 +251,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32905984" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32905984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -581,17 +581,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.min.js">
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret column="7596" selection-start-column="7596" selection-end-column="7596" />
+        <state relative-caret-position="172">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+    <entry file="file://$PROJECT_DIR$/public/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret column="7351" selection-start-column="7351" selection-end-column="7351" />
         </state>
       </provider>
     </entry>
