@@ -128,6 +128,8 @@ func (c Note) Index(noteId, online string) revel.Result {
 	c.ViewArgs["tags"] = tagService.GetTags(c.GetUserId())
 
 	c.ViewArgs["globalConfigs"] = configService.GetGlobalConfigForUser()
+	siteUrl := configService.GetSiteUrl()
+	c.ViewArgs["siteUrl"] = siteUrl
 
 	// return c.RenderTemplate("note/note.html")
 
